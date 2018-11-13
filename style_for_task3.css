@@ -1,0 +1,85 @@
+.header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(59,89,152);
+    width: 90%; 
+    min-height: 10%;
+    max-height: 10%;
+    display: flex; 
+    align-items: center;
+    padding-block-start: 2%;
+    color:white;
+    font-size: 40pt;
+    padding-inline-start: 10%;
+
+}
+
+
+.headerContent{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 3%;
+    color:white;
+    font-size: 40pt;
+    display: flex; 
+    align-items: center; 
+    width: 30%;
+    min-height: 15%;
+    max-height: 15%;
+}
+
+.greenBTN{
+    background-color: rgb(103,165,75);
+    color:white;
+    border-style: outset 1px;
+    margin-left: 20px;
+    margin-top: 12px;
+    min-width: 80px;
+    min-height: 20px;
+    font-size: 12pt;
+}
+
+.content{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    max-width: 60%;
+    min-width: 60%;
+    min-height: 400px;
+    bottom: 150px;
+    border-color: grey;
+    border-style: initial;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    
+}
+
+.FCLogin{
+    position: absolute;
+    height: 15%;
+    width: 90%;
+    margin-left: 5%;
+    border-bottom: 1px grey solid;
+    font-size: 20pt;
+    display: flex; 
+    align-items: flex-end;
+    padding-block-end: 10px;
+}
+
+.loginform{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block-start: 10%;
+
+}
+
+
+td{
+    padding-bottom: 5%
+}
